@@ -603,7 +603,11 @@ fmt.Printf("%f\n", price)
 - [ ] The code will panic
 - [ ] NaN
 
-[Go Playground share](https://go.dev/play/p/CjdHskV1xq1), output:
+1. [Documentation fmt package "Printf format verb"](https://pkg.go.dev/fmt#hdr-Printf_format_verb), Relevant excerpt from the doc:
+
+> _The default precision for %e, %f and %#g is 6;_
+
+2. [Go Playground share](https://go.dev/play/p/CjdHskV1xq1), output:
 
 ```text
 0.000000
