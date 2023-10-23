@@ -653,7 +653,7 @@ Program exited.
 
 - [ ] There is no customizing the string representation of a type.
 - [ ] Build it in pieces each time by calling individual fields.
-- [x] Implement a method `String()` string
+- [x] Implement a method `String() string`
 - [ ] Create a wrapper function that accepts your type and outputs a string.
 
 [Reference](https://go.dev/doc/effective_go#printing)
